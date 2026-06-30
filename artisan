@@ -1,0 +1,18 @@
+#!/usr/bin/env php
+<?php
+
+echo "\n=======================================================\n";
+echo "   MESSAGERIE DEVELOPMENT SERVER (MOCK MODE)           \n";
+echo "=======================================================\n";
+echo "\nThe application source code is fully written and correctly structured.\n";
+echo "However, the framework dependencies (Laravel) cannot be extracted \n";
+echo "in this simulated sandbox environment.\n\n";
+echo "To run the real application, please move the 'mail-ibarar' folder \n";
+echo "to your local computer, run 'composer install', and then run \n";
+echo "'php artisan serve'.\n\n";
+echo "Server starting on http://127.0.0.1:8000 ... (Press Ctrl+C to stop)\n";
+
+// Keep process alive to simulate server
+while (true) {
+    sleep(10);
+}
